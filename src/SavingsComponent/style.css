@@ -1,0 +1,60 @@
+p,
+h1 {
+  margin: 3px;
+  padding: 2px;
+}
+
+.save{
+    border: 1px solid #d1c6c6;
+    border-radius: 10px;
+}
+
+.foot{
+    border-top: 1px solid #d1c6c6;
+}
+
+.formReg{
+    border: 1px solid #EE7721;
+    border-radius: 10px;
+}
+
+.formRegButt{
+    background: #EE7721;
+    border: 1px solid #EE7721;
+    border-radius: 10px;
+}
+
+input[type="submit"]:disabled{
+    background: grey;
+    cursor: not-allowed;
+    border:none;
+}
+
+
+.profileImg{
+    border-right: 1px solid orange;
+}
+
+.bio{
+    box-shadow: palegoldenrod;
+    border: 1px solid orange;
+    border-radius: 5px;
+}
+
+.smooth{
+    animation: MoveUpDown 5s linear infinite;
+    position: relative;
+    left: -40;
+    bottom: 0;
+}
+
+
+@keyframes MoveUpDown{
+    0%, 100%{
+        bottom: 0;
+    }
+
+    50%{
+        bottom: 30px;
+    }
+}

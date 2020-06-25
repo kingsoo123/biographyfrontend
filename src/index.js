@@ -1,12 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+//import {Provider} from 'react-redux';
+//import {createStore} from 'redux';
+//import App from './App';
 import * as serviceWorker from './serviceWorker';
+//import {searchRobots} from './reducer.js';
+//import HooksComponent from '../src/HooksComponent/testingHooks';
+import SavingsApp from './SavingsComponent/SavingsApp';
 
+
+
+//const store = createStore(searchRobots)
 ReactDOM.render(
   <React.StrictMode>
+    {/* <Provider store={store}>
     <App />
+    </Provider> */}
+    <SavingsApp/>
   </React.StrictMode>,
   document.getElementById('root')
 );
